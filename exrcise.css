@@ -1,0 +1,132 @@
+body {
+    background-image: url(./Assets/Background3.png);
+    background-repeat: no-repeat;
+}
+
+div#header ul li {
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 20px;
+    padding: 5px 25px 0px 25px;
+    display:inline-block;
+    line-height: 50%;
+}
+div#header ul li#logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 200px 5px 50px;
+    display:inline-block;
+}
+div#header ul li span {
+    padding-left: 147px;
+}
+div#header ul li button#kontak {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: #78C2EC;
+    padding: 10px 25px;
+    border: none;
+    border-radius:10px;
+    display:inline-block;
+}
+div#header ul li a,
+div#header ul li span a {
+    text-decoration: none;
+    color: black;
+}
+
+
+div:nth-child(2) h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 90px;
+    font-size: 85px;
+    font-weight: bold;
+    line-height: 50%;
+}
+div:nth-child(2) h1 span.good {
+    border: 4px solid #ACDAED;
+    border-radius: 30px;
+    padding: 0px 8px;
+}
+div:nth-child(2) h1 span span.make {
+    background-color: white;
+    border-radius: 20px;
+    padding-right: 30px;
+}
+div:nth-child(2) p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 90px;
+    font-size: 17px;
+    line-height: 50%;
+}
+div:nth-child(2) p#p2 {
+    padding-bottom: 30px;
+}
+div:nth-child(2) span#luarbutton1 {
+    padding-left: 90px;
+}
+div:nth-child(2) span#luarbutton1 button#button1 {
+    font-size: larger;
+    background-color: #58AFF0;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+div:nth-child(2) button#button2 {
+    background-color: white;
+    border: none;
+}
+div:nth-child(2) button img#play {
+    width: 200px;
+    background-color: white;
+    vertical-align: middle;
+}
+
+
+div:nth-child(3) h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+div:nth-child(3) p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    line-height: 5px;
+}
+
+
+div:nth-child(4) ul li div {
+    text-align: center;
+    align-items: center;
+}
+div:nth-child(4) ul li {
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 15px;
+    padding: 118px;
+    display:inline-block;
+    line-height: 50%;
+}
+div:nth-child(4) ul li div a {
+    color: black;
+    text-decoration: none;
+}
+div:nth-child(4) ul li div a img {
+    vertical-align: middle;
+}
+div:nth-child(4) ul li div#free-use {
+    background-color: #eef7fb;
+    padding: 50px;
+}
+div:nth-child(4) ul li div h3.pictures {
+    font-size: 25px;
+}
